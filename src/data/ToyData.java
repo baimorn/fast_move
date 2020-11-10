@@ -8,7 +8,9 @@ public class ToyData {
 
     public static Bike[] getBikes() {
         Bike[] bikes = new Bike[3];
-        // your code
+        bikes[0] = new Bike("1234", 3);
+        bikes[1] = new Bike("5678", 15);
+        bikes[2] = new Bike("8899", 45);
 
         return bikes;
     }
@@ -30,8 +32,8 @@ public class ToyData {
     //testing
     public static void main(String[] args) {
         printBike();
-        printPerson();
-        printParcels();
+        //printPerson();
+        //printParcels();
     }
 
     private static void printBike() {
